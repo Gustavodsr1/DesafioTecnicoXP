@@ -24,6 +24,7 @@
 - [x] Manuntenção dos produtos
 - [x] Consulta de produtos disponíveis e extrato
 - [ ] Suporte para um grande volume de requisições
+- [ ] Envio do email para produtos vencidos
 
 <h2>Executando o Projeto</h2>
 <p>Para iniciar o projeto, abra a solução GestaoPortfolio.API.sln, comece executando o comando "docker-compose up -d" na pasta principal, onde está localizado o arquivo docker-compose.yml. Após confirmar que tudo está funcionando corretamente.</p>
