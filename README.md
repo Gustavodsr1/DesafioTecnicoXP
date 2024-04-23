@@ -16,9 +16,19 @@
 <p>As funcionalidades de consulta de produtos disponíveis e extrato devem suportar um grande volume de requisições e manter baixo tempo de resposta, abaixo de 100ms</p>
 <p>Documentação de como executar a aplicação</p>
 <p>Documentação de como utilizar a aplicação </p>
+
+- [x] Cadastro de usuário
+- [x] Cadastro de cliente
+- [x] Cadastro de produtos
+- [x] Operação de compra e venda
+- [x] Manuntenção dos produtos
+- [x] Consulta de produtos disponíveis e extrato
+- [ ] Suporte para um grande volume de requisições
+
 <h2>Executando o Projeto</h2>
 <p>Para iniciar o projeto, abra a solução GestaoPortfolio.API.sln, comece executando o comando "docker-compose up -d" na pasta principal, onde está localizado o arquivo docker-compose.yml. Após confirmar que tudo está funcionando corretamente.</p>
 <p>Quando o projeto está em execução, o banco de dados é criado (sendo recriado a cada execução) e uma página do Swagger é aberta. Os testes das funcionalidades são simples, porém é necessário seguir uma sequência para preencher as informações necessárias nas tabelas ao realizar uma chamada.</p>
+
 <ol>
     <li>
         <p>Primeiro, é necessário criar um usuário na rota "usuario/criar" e, em seguida, utilizar as mesmas informações para fazer o login em "usuario/login". Após verificação bem-sucedida, copie o token e cole-o no campo disponível na modal que abrirá ao clicar no botão "Authorize" no topo da página. Importante: o e-mail precisa seguir o padrão correto, terminando com "@xxxx.xxx".</p>
