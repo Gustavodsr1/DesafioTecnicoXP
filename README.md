@@ -2,7 +2,6 @@
 <p align="center">Este projeto apresenta uma abordagem simplificada para gerenciar uma carteira de investimentos, modelada após as práticas de gestão de portfólio utilizadas em mesas de operações financeiras.</p>
 <h2> Introdução do Projeto </h2>
 <p>Para o desenvolvimento do projeto, procurei novos design patterns para estudos e decidi utilizar o SOLID e pela primeira vez o padrão Facade. Na arquitetura utilizei o DDD (Domain Driven Design).</p>
-<p>Dado o prazo restrito para a entrega do projeto, foram realizadas adaptações para garantir que as funcionalidades estejam alinhadas com o escopo estabelecido.</p>
 <p>A seguir, apresento um guia passo a passo para a execução do programa e a realização de testes de suas funcionalidades.</p>
 <h2> Requisitos do projeto </h2>
 <p>Criar um serviço que permita o time de operação realizar manutenção nos produtos de investimentos.</p>
