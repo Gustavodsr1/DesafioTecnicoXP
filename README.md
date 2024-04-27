@@ -1,4 +1,4 @@
-<h1 align="center">Desafio Tecnico XP Gestao de Portfolio</h1>
+<h1 align="center"> Gestao de Portfolio</h1>
 <p align="center">Este projeto apresenta uma abordagem simplificada para gerenciar uma carteira de investimentos, modelada após as práticas de gestão de portfólio utilizadas em mesas de operações financeiras.</p>
 <h2> Introdução do Projeto </h2>
 <p>Para o desenvolvimento do projeto, procurei novos design patterns para estudos e decidi utilizar o SOLID e pela primeira vez o padrão Facade. Na arquitetura utilizei o DDD (Domain Driven Design).</p>
@@ -23,8 +23,8 @@
 - [x] Operação de compra e venda
 - [x] Manuntenção dos produtos
 - [x] Consulta de produtos disponíveis e extrato
-- [ ] Suporte para um grande volume de requisições
-- [ ] Envio do email para produtos vencidos
+- [x] Suporte para um grande volume de requisições
+- [x] Envio do email para produtos vencidos
 
 <h2>Executando o Projeto</h2>
 <p>Para iniciar o projeto, abra a solução GestaoPortfolio.API.sln, comece executando o comando "docker-compose up -d" na pasta principal, onde está localizado o arquivo docker-compose.yml. Após confirmar que tudo está funcionando corretamente.</p>
